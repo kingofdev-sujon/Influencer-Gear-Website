@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* shared styles */
+
+.display-flex{
+    display: flex;
+}
+
+.btn-primary{
+    color: white;
+    background-color: rgba(224, 44, 109, 1);
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    border-radius: 41px;
+}
+
+ /* navbar related styles */
+
+ /* dark gray */
+ .text-gray {
+    color: rgba(58, 58, 58, 1);
+ }
+
+ .navbar {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .brand {
+    font-weight: 500;
+    font-size: 1.85rem;
+  }
+
+  .nav-item {
+    list-style: none;
+    margin-right: 30px;
+  }
+
+  .nav-link{
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+.navbar, .banner {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+
+.nav-item {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+
+  .nav-link{
+    text-decoration: none;
+  }
+
+  /* banner related styles */
+
+  .banner-img{
+    background-image: url("../images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  
+
+  .banner{
+    align-items: center;
+    justify-content: space-between;
+  }
