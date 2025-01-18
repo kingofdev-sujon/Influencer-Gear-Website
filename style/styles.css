@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* shared styles */
+
+.display-flex{
+    display: flex;
+}
+
+.btn-primary{
+    color: white;
+    background-color: rgba(224, 44, 109, 1);
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 12px 34px;
+    border: none;
+    border-radius: 41px;
+    margin-top: 16px;
+}
+
+ /* navbar related styles */
+
+ /* dark gray */
+ .text-gray {
+    color: rgba(58, 58, 58, 1);
+ }
+
+ /* heading-text */
+
+ .heading-color {
+  color: rgba(24, 25, 31, 1);
+ }
+
+ .navbar {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .brand {
+    font-weight: 500;
+    font-size: 1.85rem;
+  }
+
+  .nav-item {
+    list-style: none;
+    margin-right: 30px;
+  }
+
+  .nav-link{
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+.navbar, .banner {
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-top: 87px;
+}
+
+
+.nav-item {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+
+  .nav-link{
+    text-decoration: none;
+  }
+
+  /* banner related styles */
+
+  .banner-img{
+    background-image: url("../images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 80px;
+  }
+  
+
+  .banner{
+    align-items: center;
+    justify-content: space-between;
+    width: 1110px;
+    margin-bottom: 110px;
+  }
+
+  .banner-content h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgba(58, 58, 58, 1);
+    margin: 0 auto;
+
+  }
+
+  .banner-content p{
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+
+/* our sponsor section styles here */
+
+  .sponsor-companies {
+    max-width: 1110px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin: 0 auto;
+    height: 110px;
+    border: 0.5px solid gray;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* product container styles here */
+
+.collection-container {
+  max-width: 1047px;
+  margin: 0 auto;
+}
+
+#container-title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 100px;
+  margin-bottom: 30px;
+
+}
+
+.product-container {
+  width: 329px;
+  border:none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 24px 0px rgba(90, 89, 89, 0.3);
+}
+
+.container-img img {
+  border: none;
+  border-radius: 5px;
+  align-items: center;
+  padding: 15px;
+}
+.seemore{
+  margin-left: 1364px;
+  margin-top: 50px;
+}
+#see-more {
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgba(224, 44, 109, 0.87);
+  text-decoration: none;
+}
+.product-content {
+  padding: 15px;
+}
+.product-content h1 {
+  margin-top: 0px;
+  margin-bottom: 6px;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.product-content p{
+  font-size: 1.25rem;
+}
+
+
+.collection-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* feature section styles */
+
+.features {
+  max-width: 1110px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.feature-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.feature-content h1{
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+
+.feature-content p{
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.feature-btn {
+  color: white;
+  background-color: rgba(224, 44, 109, 1);
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 10px 24px;
+  border: none;
+  margin-top: 16px;
+}
+
+.product-content h1 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.product-content h2 {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+/* footer section styles here */
+
+.footer-content{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+.footer-icon{
+  margin-top: 10px;
+}
