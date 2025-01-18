@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
+body {
+  margin-top: 100px;
+}
+
 /* shared styles */
 
 .display-flex{
@@ -15,6 +19,7 @@
     padding: 10px;
     border: none;
     border-radius: 41px;
+    margin-top: 16px;
 }
 
  /* navbar related styles */
@@ -22,6 +27,12 @@
  /* dark gray */
  .text-gray {
     color: rgba(58, 58, 58, 1);
+ }
+
+ /* heading-text */
+
+ .heading-color {
+  color: rgba(24, 25, 31, 1);
  }
 
  .navbar {
@@ -67,10 +78,86 @@
     background-image: url("../images/Circle\ design.svg");
     background-repeat: no-repeat;
     background-position: right;
+    margin-top: 80px;
   }
   
 
   .banner{
     align-items: center;
     justify-content: space-between;
+    width: 1110px;
+    margin-bottom: 110px;
   }
+
+  .banner-content h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgba(58, 58, 58, 1);
+    margin: 0 auto;
+
+  }
+
+  .banner-content p{
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+
+/* our sponsor section styles here */
+
+  .sponsor-companies {
+    max-width: 1110px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin: 0 auto;
+    height: 110px;
+    border: 0.5px solid gray;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* product container styles here */
+
+.collection-container {
+  max-width: 1047px;
+  margin: 0 auto;
+}
+
+#container-title {
+  text-align: center;
+}
+
+.product-container {
+  width: 329px;
+  border:none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.3);
+}
+
+.container-img img {
+  border: none;
+  border-radius: 5px;
+  align-items: center;
+  padding: 15px;
+}
+
+.product-content {
+  padding: 15px;
+}
+.product-content h1 {
+  margin-top: 0px;
+  margin-bottom: 6px;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.product-content p{
+  font-size: 1.25rem;
+}
+
+
+.collection-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
